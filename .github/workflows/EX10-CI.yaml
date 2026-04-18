@@ -42,6 +42,7 @@ jobs:
     runs-on: ubuntu-latest
 
     # 🔥 Critical: only run on push to main (NOT PR)
+    # 🔥 Critical: only run on push to main (NOT PR)
     if: github.event_name == 'push'
 
     steps:
